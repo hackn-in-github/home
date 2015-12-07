@@ -1,0 +1,2 @@
+! 19 = 0 asciitilde 0 asciitilde の asciitilde を backslash に変更
+keycode  19 = 0 backslash 0 backslash
