@@ -1,2 +1,9 @@
 ! 19 = 0 asciitilde 0 asciitilde の asciitilde を backslash に変更
 keycode  19 = 0 backslash 0 backslash
+! q (keycode 24) と w (keycode 25) が入力できなくなったため
+! CapsLock (keycode 66) に Mode_switch にし
+! CapsLock + a (keycode 38) で q
+! CapsLock + s (keycode 39) で w を出力するようにする
+! keycode  66 = Mode_switch
+! keycode  38 = a A q Q
+! keycode  39 = s S w W
